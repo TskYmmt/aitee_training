@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 過去問PDF (436MB+)
+ref/past_exams/*.pdf
+
+# 過去問OCR生データ
+ref/past_exams_ocr/
+
+# NDLOCR-Lite (ツール本体)
+tools/ndlocr-lite/
+
+# 一時ファイル
+/tmp/
