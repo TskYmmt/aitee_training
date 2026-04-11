@@ -14,3 +14,6 @@ tools/ndlocr-lite/
 
 # 一時ファイル
 /tmp/
+
+# macOS
+.DS_Store
