@@ -1,0 +1,156 @@
+{
+  "_comment": "leaf_id → training mode. leaves not listed here use normal MCQ pre-training.",
+  "_modes": {
+    "reflex": "即答ドリル。記号→意味の発火速度を鍛える。テンポ重視、1問数秒。",
+    "calculation": "計算トレーニング。公式適用・数値導出を自分で実行させる。",
+    "trace": "マルチステップトレース。データ構造・アルゴリズムの状態変化を逐次追跡させる。"
+  },
+
+  "ch01_01_01": {"mode": "reflex", "menu": "論理・集合演算"},
+  "ch01_01_02": {"mode": "reflex", "menu": "論理・集合演算"},
+  "ch01_01_03": {"mode": "reflex", "menu": "論理・集合演算"},
+  "ch01_01_04": {"mode": "reflex", "menu": "論理・集合演算"},
+
+  "ch01_02_01": {"mode": "calculation", "menu": "情報理論・符号化"},
+  "ch01_02_02": {"mode": "calculation", "menu": "情報理論・符号化"},
+  "ch01_02_03": {"mode": "calculation", "menu": "情報理論・符号化"},
+  "ch01_02_04": {"mode": "reflex", "menu": "基数変換・ビット演算"},
+
+  "ch01_03_01": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch01_03_02": {"mode": "reflex", "menu": "正規表現"},
+  "ch01_03_col01": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+
+  "ch01_04_02": {"mode": "reflex", "menu": "正規表現"},
+  "ch01_04_03": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch01_04_04": {"mode": "reflex", "menu": "正規表現"},
+
+  "ch01_05_01": {"mode": "trace", "menu": "グラフ理論"},
+  "ch01_05_02": {"mode": "trace", "menu": "グラフ理論"},
+  "ch01_05_03": {"mode": "trace", "menu": "グラフ理論"},
+  "ch01_05_04": {"mode": "trace", "menu": "グラフ理論"},
+  "ch01_05_05": {"mode": "trace", "menu": "グラフ理論"},
+
+  "ch01_06_01": {"mode": "calculation", "menu": "確率・統計・回帰"},
+  "ch01_06_02": {"mode": "calculation", "menu": "確率・統計・回帰"},
+  "ch01_06_col01": {"mode": "calculation", "menu": "確率・統計・回帰"},
+  "ch01_06_03": {"mode": "calculation", "menu": "確率・統計・回帰"},
+  "ch01_06_col02": {"mode": "calculation", "menu": "確率・統計・回帰"},
+
+  "ch01_07_01": {"mode": "calculation", "menu": "確率・統計・回帰"},
+  "ch01_07_02": {"mode": "calculation", "menu": "確率・統計・回帰"},
+  "ch01_07_03": {"mode": "calculation", "menu": "確率・統計・回帰"},
+
+  "ch01_08_01": {"mode": "calculation", "menu": "数値計算"},
+  "ch01_08_02": {"mode": "calculation", "menu": "数値計算"},
+
+  "ch02_02_01": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch02_02_02": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+
+  "ch02_03_01": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch02_03_02": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch02_03_03": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch02_03_04": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch02_03_05": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch02_03_col01": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+
+  "ch02_04_01": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch02_04_02": {"mode": "calculation", "menu": "アルゴリズム・データ構造"},
+
+  "ch02_05_01": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch02_05_02": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch02_05_03": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+
+  "ch02_06_01": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+  "ch02_06_02": {"mode": "trace", "menu": "アルゴリズム・データ構造"},
+
+  "ch03_01_01": {"mode": "reflex", "menu": "論理・集合演算"},
+  "ch03_01_02": {"mode": "reflex", "menu": "論理・集合演算"},
+
+  "ch03_02_01": {"mode": "calculation", "menu": "ハードウェア性能"},
+  "ch03_02_02": {"mode": "calculation", "menu": "ハードウェア性能"},
+  "ch03_02_col02": {"mode": "calculation", "menu": "ハードウェア性能"},
+
+  "ch03_03_01": {"mode": "calculation", "menu": "ハードウェア性能"},
+  "ch03_03_02": {"mode": "calculation", "menu": "ハードウェア性能"},
+  "ch03_03_04": {"mode": "calculation", "menu": "ハードウェア性能"},
+
+  "ch03_04_04": {"mode": "calculation", "menu": "ハードウェア性能"},
+  "ch03_04_05": {"mode": "calculation", "menu": "ハードウェア性能"},
+  "ch03_04_06": {"mode": "calculation", "menu": "ハードウェア性能"},
+
+  "ch03_05_01": {"mode": "calculation", "menu": "入出力・伝送"},
+  "ch03_05_02": {"mode": "calculation", "menu": "入出力・伝送"},
+
+  "ch04_07_01": {"mode": "calculation", "menu": "システム性能・信頼性"},
+  "ch04_07_02": {"mode": "calculation", "menu": "システム性能・信頼性"},
+
+  "ch04_08_01": {"mode": "calculation", "menu": "システム性能・信頼性"},
+  "ch04_08_02": {"mode": "calculation", "menu": "システム性能・信頼性"},
+  "ch04_08_03": {"mode": "calculation", "menu": "システム性能・信頼性"},
+  "ch04_08_04": {"mode": "calculation", "menu": "システム性能・信頼性"},
+  "ch04_08_05": {"mode": "calculation", "menu": "システム性能・信頼性"},
+  "ch04_08_col01": {"mode": "calculation", "menu": "システム性能・信頼性"},
+
+  "ch04_09_01": {"mode": "calculation", "menu": "システム性能・信頼性"},
+  "ch04_09_02": {"mode": "calculation", "menu": "システム性能・信頼性"},
+  "ch04_09_03": {"mode": "calculation", "menu": "システム性能・信頼性"},
+  "ch04_09_04": {"mode": "calculation", "menu": "システム性能・信頼性"},
+  "ch04_09_col01": {"mode": "calculation", "menu": "システム性能・信頼性"},
+
+  "ch05_02_01": {"mode": "trace", "menu": "OS機構"},
+  "ch05_02_02": {"mode": "trace", "menu": "OS機構"},
+  "ch05_02_03": {"mode": "trace", "menu": "OS機構"},
+  "ch05_02_04": {"mode": "trace", "menu": "OS機構"},
+  "ch05_02_05": {"mode": "trace", "menu": "OS機構"},
+
+  "ch05_03_01": {"mode": "calculation", "menu": "OS機構"},
+  "ch05_03_02": {"mode": "trace", "menu": "OS機構"},
+  "ch05_03_03": {"mode": "trace", "menu": "OS機構"},
+
+  "ch06_01_01": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_01_col01": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_03_01": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_03_02": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_04_01": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_04_02": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_05_01": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_05_02": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_05_03": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_05_04": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_05_05": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_05_06": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_05_col01": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_05_07": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_06_01": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_06_02": {"mode": "trace", "menu": "DB正規化・SQL"},
+  "ch06_06_03": {"mode": "trace", "menu": "DB正規化・SQL"},
+
+  "ch07_04_01": {"mode": "calculation", "menu": "ネットワーク計算"},
+  "ch07_04_03": {"mode": "calculation", "menu": "ネットワーク計算"},
+  "ch07_04_04": {"mode": "calculation", "menu": "ネットワーク計算"},
+
+  "ch08_01_01": {"mode": "calculation", "menu": "セキュリティ計算"},
+
+  "ch09_06_01": {"mode": "calculation", "menu": "テスト技法"},
+  "ch09_06_02": {"mode": "calculation", "menu": "テスト技法"},
+
+  "ch10_02_01": {"mode": "trace", "menu": "プロジェクト管理"},
+  "ch10_02_02": {"mode": "calculation", "menu": "プロジェクト管理"},
+  "ch10_03_01": {"mode": "calculation", "menu": "プロジェクト管理"},
+  "ch10_03_02": {"mode": "calculation", "menu": "プロジェクト管理"},
+
+  "ch11_04_01": {"mode": "calculation", "menu": "経営工学・OR"},
+  "ch11_04_02": {"mode": "calculation", "menu": "経営工学・OR"},
+  "ch11_04_03": {"mode": "calculation", "menu": "経営工学・OR"},
+  "ch11_04_04": {"mode": "calculation", "menu": "経営工学・OR"},
+  "ch11_04_05": {"mode": "calculation", "menu": "経営工学・OR"},
+  "ch11_04_06": {"mode": "calculation", "menu": "経営工学・OR"},
+
+  "ch11_05_01": {"mode": "calculation", "menu": "財務計算"},
+  "ch11_05_02": {"mode": "calculation", "menu": "財務計算"},
+  "ch11_05_03": {"mode": "calculation", "menu": "財務計算"},
+  "ch11_05_col01": {"mode": "calculation", "menu": "財務計算"},
+  "ch11_05_col02": {"mode": "calculation", "menu": "財務計算"},
+  "ch11_05_04": {"mode": "calculation", "menu": "財務計算"},
+  "ch11_05_col03": {"mode": "calculation", "menu": "財務計算"}
+}
